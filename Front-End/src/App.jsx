@@ -33,6 +33,7 @@ function App() {
             <Routes>
                 {/* Ruta pública (sin Navbar) */}
                 <Route path="/login" element={<Login />} />
+                
                 <Route path="/Crearusu" element={<CrearUsu />} />
                 <Route path="/Home" element={<Home />} />
                 <Route path="/" element={<LayoutWithNavbar><Home /></LayoutWithNavbar>} />
