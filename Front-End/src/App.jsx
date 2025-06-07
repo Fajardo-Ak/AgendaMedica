@@ -58,4 +58,5 @@ function App() {
 }
 
 export default App;
-// Crear llaves de autenticación y pruebas con Postman. javier
+// -Implementar formulario de ventas. javier 
+
