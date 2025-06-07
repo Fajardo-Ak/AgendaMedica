@@ -22,7 +22,7 @@ const Login = () => {
             className="container d-flex justify-content-center align-items-center vh-100" 
             style={{ 
                 backgroundColor: "#ffffff",
-                backgroundImage: "linear-gradient(to bottom, #ffffff, #f0f8ff)",
+                backgroundImage: "linear-gradient(to bottom, #ffffff,rgb(209, 216, 222))",
                 position: "relative" // Añadido para posicionar el botón
             }}
         >
