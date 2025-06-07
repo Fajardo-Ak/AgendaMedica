@@ -11,14 +11,14 @@
 
 /* Tarjeta de login */
 .login-card {
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(38, 21, 107, 0.15);
     padding: 2.5rem;
     border-radius: 12px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 10px 30px rgba(12, 5, 43, 0.3);
     width: 100%;
     max-width: 400px;
     text-align: center;
-    color: white;
+    color: rgb(232, 226, 226);
 }
 
 /* Título */
