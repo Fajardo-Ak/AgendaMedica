@@ -58,4 +58,4 @@ function App() {
 }
 
 export default App;
-// -Implementar registro/login usando Laravel javier
+// Crear llaves de autenticación y pruebas con Postman. javier
