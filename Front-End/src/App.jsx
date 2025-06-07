@@ -58,4 +58,4 @@ function App() {
 }
 
 export default App;
-// es solo un comentarisdavfd
+// esto es para -configuración de Laravel. javier
