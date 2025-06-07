@@ -58,4 +58,4 @@ function App() {
 }
 
 export default App;
-// configurar React con Vite. javier 
+// -Implementar registro/login usando Laravel javier
