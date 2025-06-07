@@ -92,7 +92,7 @@ const Login = () => {
                                 fontSize: "0.95rem"
                             }}
                         >
-                            Correo Electrónico 
+                            Correo Electrónicoo
                         </label>
                         <input 
                             type="email" 
