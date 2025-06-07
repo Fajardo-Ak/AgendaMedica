@@ -16,7 +16,7 @@ import Personas from "./Components/Personas";
 import MetodoPago from "./Components/pavo";
 function App() {
     const [vista, setVista] = useState("/Graficas"); // Cambiado a "/Graficas" como ruta inicial
-
+//rutas
     // Componente para rutas que requieren autenticación (con Navbar)
     const LayoutWithNavbar = ({ children }) => (
         <>
@@ -31,8 +31,9 @@ function App() {
     return (
         <Router>
             <Routes>
-                {/* Ruta pública (sin Navbar) */}
+                {/* Ruta pública (sin Navbar-) */}
                 <Route path="/login" element={<Login />} />
+                
                 <Route path="/Crearusu" element={<CrearUsu />} />
                 <Route path="/Home" element={<Home />} />
                 <Route path="/" element={<LayoutWithNavbar><Home /></LayoutWithNavbar>} />
@@ -57,4 +58,5 @@ function App() {
 }
 
 export default App;
-// es solo un comentario
+// -Implementar formulario de ventas. javier 
+
