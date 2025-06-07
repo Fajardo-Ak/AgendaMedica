@@ -16,7 +16,7 @@ import Personas from "./Components/Personas";
 import MetodoPago from "./Components/pavo";
 function App() {
     const [vista, setVista] = useState("/Graficas"); // Cambiado a "/Graficas" como ruta inicial
-
+//rutas
     // Componente para rutas que requieren autenticación (con Navbar)
     const LayoutWithNavbar = ({ children }) => (
         <>
@@ -31,7 +31,7 @@ function App() {
     return (
         <Router>
             <Routes>
-                {/* Ruta pública (sin Navbar) */}
+                {/* Ruta pública (sin Navbar-) */}
                 <Route path="/login" element={<Login />} />
                 
                 <Route path="/Crearusu" element={<CrearUsu />} />
