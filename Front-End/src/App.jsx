@@ -58,4 +58,4 @@ function App() {
 }
 
 export default App;
-// esto es para -configuración de Laravel. javier
+// configurar React con Vite. javier 
