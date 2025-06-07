@@ -33,6 +33,7 @@ function App() {
             <Routes>
                 {/* Ruta pública (sin Navbar) */}
                 <Route path="/login" element={<Login />} />
+                
                 <Route path="/Crearusu" element={<CrearUsu />} />
                 <Route path="/Home" element={<Home />} />
                 <Route path="/" element={<LayoutWithNavbar><Home /></LayoutWithNavbar>} />
@@ -57,4 +58,4 @@ function App() {
 }
 
 export default App;
-// es solo un comentario
+// Crear llaves de autenticación y pruebas con Postman. javier
