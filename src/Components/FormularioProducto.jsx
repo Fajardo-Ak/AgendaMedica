@@ -51,7 +51,7 @@ const FormularioProducto = () => {
                     <div className="col-12 col-sm-4">
                         <div className="card text-white bg-info h-100">
                             <div className="card-body text-center d-flex flex-column justify-content-center">
-                                <h5 className="card-title">Total Ventas</h5>
+                                <h5 className="card-title">Total Ventasd</h5>
                                 <p className="card-text display-6 mb-1">{totalVentas}</p>
                                 <small>(100%)</small>
                             </div>
